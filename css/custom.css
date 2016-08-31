@@ -1,0 +1,249 @@
+body{
+	background-color: #fff;
+  height:100%;
+  margin:0;
+  padding:0;
+}
+
+
+h1{
+	font-family: Century Gothic; 
+}
+
+/*Navigation*/ 
+.navbar.navbar-default.navbar-fixed-bottom{
+float: left; 
+	
+}
+
+.navbar.navbar-inverse.navbar-fixed-top{
+  background-color: #0f0f0f; 
+  height: 10%; 
+}
+
+.nav.navbar-nav{
+  margin-top: 5%; 
+}
+
+
+
+
+
+.logo{
+	float:left; 
+  margin-top: 8%; 
+}
+
+
+
+
+/*footer*/ 
+
+.col-sm-3.footer{
+	text-align: center; 
+
+	
+}
+
+.page-header{
+  margin-top: 120px; 
+}
+
+
+#footerlist{
+	text-decoration: none;  
+	list-style: none; 
+	text-align: left; 
+	margin-left: 25%; 
+
+}
+
+
+/*titler*/ 
+
+.jumbotron.titler{
+	background-color: #e8e8e8; 
+	text-align: center; 
+	float; right; 
+  height: 150px; 
+
+}
+
+.h1.titler{
+	font-size: 30px; 
+	margin-top: 40px; 
+}
+
+.p.titler{
+  font-size: 30px; 
+  margin-top: 40px; 
+}
+
+
+
+/*Nyheder*/ 
+
+.col-sm-4.nyhed{
+	text-align: center; 
+ 
+}
+
+.col-sm-3.nyhed{
+	text-align: center; 
+ 
+}
+
+
+
+
+/*Om SKN*/ 
+
+
+
+
+/*Cases*/ 
+
+.col-sm-6.case{
+	text-align: center; 
+	background-color: #fff; 
+}
+
+.col-sm-6.casespic{
+	text-align: center; 
+}
+
+
+/*Admin*/ 
+.navbar.navbar-default.navbar-fixed-top.admin{
+  background-color:#0f0f0f; 
+}
+
+
+.container.logincontainer{
+  margin-top: 15%; 
+}
+
+
+
+/*Generelt*/ 
+.list{
+	text-decoration: none; 
+	display: inline; 
+	text-align: center; 
+
+}
+
+
+.navbar.navbar-default-fixed-bottom{
+  margin-top: 5%; 
+  background-color: #e8e8e8;
+  padding-top: 30px;
+  box-shadow: inset 1px 1px 3px #ccc;
+  padding-bottom: 30px;
+  height: auto; 
+
+
+}
+
+hr{
+  border-color: #ccc;
+}
+
+
+
+html, body {
+  height:90%;
+  margin:0;
+  padding:0;
+}
+.carousel, .item, .active {
+  height:100%;
+}
+.carousel-inner {
+  height:100%;
+}
+.carousel {
+  margin-bottom: 60px;
+}
+.carousel-caption {
+  z-index: 10;
+}
+.carousel .item {
+  background-color: #777;
+}
+.carousel .carousel-inner .bg {
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.carousel .carousel-inner .bg1 {
+  background-image: url(../img/knowledgebanner3.jpg);  
+  background-position: center top; 
+}
+.carousel .carousel-inner .bg2 {
+  background-image:url(../img/knowledgebanner4.jpg);
+  background-position: center center; 
+}
+.carousel .carousel-inner .bg3 {
+  background-image: url(../img/knowledgebanner1.jpg);
+  background-position: center bottom; 
+}
+
+.logofront{
+  margin-top: 60%;
+  text-align: center; 
+  position: relative;
+  display: block;  
+}
+
+
+
+
+
+
+ /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+     .jumbotron.titler.mobile{
+        display: none; 
+      }
+
+
+
+    .page-header.forside{
+      display: none; 
+    }
+
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+
+      .jumbotron.titler.mobile{
+        display: none; 
+     }
+
+   }
+
+
+
+
+    @media (max-width: 767px) {
+
+      button.navbar-toggle.collapsed{
+      margin-top: 20px; 
+      }
+    
+
+     .navbar-header img{
+      margin-left: 25px;
+     }
+
+   }
+
+    
+
+    
+
+
